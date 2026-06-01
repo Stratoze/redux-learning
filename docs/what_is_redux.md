@@ -1,0 +1,70 @@
+- Redux is basically a global state manager, it lets you manipulate a global state from a component without having to do prop passing or use useContext
+- an action is object with type and payload, which the reducer catches to update state, (or middleware to use the info to dispatch another action)
+- a reducer basically just take the current state and action and calculate a new state
+    - action -> reducer -> new state
+- the redux store is basically a ledger or controller of the action flow and the current states stored
+- saga/ thunk are middle ware, basically because reducer must be pure, which means that it's deterministic same input = same output and also doesn't change other global variables, async call (so basically anything api) isn't pure so we use middle ware, we can also use custom function but that's less convenient and more prone to bugs
+    - dispatch(action) > store > middleware (optional)(less strict) -(as action)-> reducer(strict) > new state
+- typical folder format (for large complicated projects):
+    - RTK/
+        - Feature/
+            - Feature_name
+                - featureSaga.ts
+                - featureSlice.ts
+                - featureApi.ts
+                - featureTypes.ts
+- or when it's around comfy lines
+    - RTK
+        - Feature
+            - Feature_name
+                - Feature_name.ts
+
+--- 
+### Redux toolkit
+- createSlice
+    - to create action creator and reducer logic
+    - name: name
+    - initial state: init values of the obj
+        - reducers, holds reducer handler for actions defined in this slice
+        - function_name: (state, optional_action) => func logic
+        - when calling reducer in the front end we dont need to worry about the state param only the action param
+        - creates the reducer logic
+    - extraReducers handles actions that originate outside the slice.
+        - same syntax as reducer but you can handle action from thunk for example
+- useSelector
+    - to get the value for the global variable you need
+- useDispatch
+    - to send action to the store
+- We then export the action crator and import them into the component that uses them for the dispatch to send them to the store
+- example
+    - increaseby : action creator, we import this
+    - increasby(10) : action, returns {type:type, payload:10}
+    - dispatch(increaseby(10)) : sends action to the store, can also send in raw action but that's antipattern
+---
+### Redux Thunk
+- createAsyncThunk
+    - dispatch(fetchUser(id)) > fetchUser/pending > ApiCall > fetchUser/fulfilled > extraReducers > new state
+    - automatically dispatches actions
+        - pending
+        - fulfilled
+        - rejected
+    - so the extraReducers can use them
+- We still import the functions in the component that uses them
+--- 
+### Redux saga
+- Watcher saga
+    - event listener that watches for dispatched actions
+    - function* watch[state]Saga
+        - yield takeLatest(type, worker_saga)
+            - take latest cancels executing calls and take only the latest in case a user spam the call for example
+            - yield hand control over to the saga middleware until the (async) task is complete
+- Worker saga
+    - the logic that executes when watcher saga catches a dispatch
+    - function* [function_name]worker
+        - yield call(api_call_func)
+            - for async api calling
+        - yield put(action)
+            - for dispatching an action
+--- 
+### Redux store
+- basically where you combine reducer from all slices, register middlewares, hold application state and received dispatched action, almost plug and play, not much to talk about, it's a router
