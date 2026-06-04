@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from './features/counter/Counter';
+import { Counter } from '@redux-learning/counter-feature';
 
 function App() {
     return (
         <>
-            <Counter />
+            <Counter/>
         </>
     );
 }

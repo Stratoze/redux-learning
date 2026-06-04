@@ -1,5 +1,5 @@
 import { put, takeLatest , delay } from 'redux-saga/effects';
-import { incrementAsyncStart, incrementAsyncSuccess } from './counterSlice';
+import { incrementAsyncStart, incrementAsyncSuccess } from './counterSlice.ts';
 
 //worker
 function* handleIncrementAsyncWorker() {
