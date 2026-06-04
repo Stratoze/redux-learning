@@ -9,17 +9,25 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.2.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "react-redux": "^9.1.0",
+    "@reduxjs/toolkit": "^2.12.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-redux": "^9.3.0",
     "redux-saga": "^1.5.0"
   },
   "devDependencies": {
-    "@types/react": "^18.3.0",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.0",
-    "typescript": "^5.0.0",
-    "vite": "8.0.5"
-  }
+    "@nx/vite": "22.7.5",
+    "@nx/web": "22.7.5",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "@vitest/ui": "~4.1.0",
+    "jiti": "2.4.2",
+    "nx": "22.7.5",
+    "typescript": "^6.0.3",
+    "vite": "8.0.16",
+    "vitest": "~4.1.0"
+  },
+  "nx": {}
 }
