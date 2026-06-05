@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import createSagaMiddleware from 'redux-saga';
-import counterReducer from './counterSlice.ts';
-import { counterSaga } from './counterSaga.ts';
+import { counterReducer } from '@redux-learning/counter-state';
+import { counterSaga } from '@redux-learning/counter-state';
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -10,7 +10,7 @@ export const store = configureStore({
     counter: counterReducer,
   },
   middleware: (getDefaultMiddleware) =>
-      getDefaultMiddleware().concat(sagaMiddleware),
+    getDefaultMiddleware().concat(sagaMiddleware),
 });
 
 sagaMiddleware.run(counterSaga);

@@ -1,0 +1,1 @@
+export type { CounterStatus, CounterState } from './lib/counterTypes';

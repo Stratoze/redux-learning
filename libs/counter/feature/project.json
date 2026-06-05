@@ -1,0 +1,8 @@
+{
+  "name": "counter-feature",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/counter/feature/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

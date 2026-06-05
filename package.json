@@ -4,9 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "start": "nx serve redux-counter",
+    "build": "nx build redux-counter",
+    "preview": "nx preview redux-counter",
+    "dev": "nx serve redux-counter",
+    "lint": "nx run-many --target=lint --all",
+    "test": "nx run-many --target=test --all",
+    "nx": "nx",
+    "create-shared-types": "nx g @nx/js:lib shared-types --directory=libs/shared/types --importPath=@redux-learning/shared-types",
+    "create-shared-components": "nx g @nx/js:lib shared-components --directory=libs/shared/components --importPath=@redux-learning/shared-components",
+    "create-counter-state": "nx g @nx/js:lib counter-state --directory=libs/counter/state --importPath=@redux-learning/counter-state"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",

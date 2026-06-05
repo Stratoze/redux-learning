@@ -1,0 +1,8 @@
+{
+  "name": "counter-state",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/counter/state/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

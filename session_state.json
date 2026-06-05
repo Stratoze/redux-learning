@@ -1,0 +1,312 @@
+{
+  "context_files": [
+    ".DS_Store",
+    ".clipper\\cache\\bundle_cache.json",
+    ".gitignore",
+    ".idea\\.gitignore",
+    ".idea\\ReduxLearning.iml",
+    ".idea\\inspectionProfiles\\Project_Default.xml",
+    ".idea\\modules.xml",
+    ".idea\\nx-angular-config.xml",
+    ".idea\\vcs.xml",
+    ".idea\\workspace.xml",
+    ".nx\\cache\\run.json",
+    ".nx\\cache\\terminalOutputs\\13096256141338714292",
+    ".nx\\cache\\terminalOutputs\\14751443486463551355",
+    ".nx\\cache\\terminalOutputs\\15469716411033231898",
+    ".nx\\cache\\terminalOutputs\\3908663437612855951",
+    ".nx\\cache\\terminalOutputs\\4897235323902474389",
+    ".nx\\cache\\terminalOutputs\\9698672706119260560",
+    ".nx\\workspace-data\\d\\daemon-error.log",
+    ".nx\\workspace-data\\d\\daemon.log",
+    ".nx\\workspace-data\\d\\disabled",
+    ".nx\\workspace-data\\d\\server-process.json",
+    ".nx\\workspace-data\\dfd31cf0-7900-4ede-a390-7a698277d7c7-v2.db",
+    ".nx\\workspace-data\\dfd31cf0-7900-4ede-a390-7a698277d7c7-v2.lock",
+    ".nx\\workspace-data\\eslint-2654242865465226088.hash",
+    ".nx\\workspace-data\\file-map.json",
+    ".nx\\workspace-data\\jest-7930610538513362720.hash",
+    ".nx\\workspace-data\\lockfile-dependencies.hash",
+    ".nx\\workspace-data\\lockfile-nodes.hash",
+    ".nx\\workspace-data\\nx_files.nxt",
+    ".nx\\workspace-data\\parsed-lock-file.dependencies.json",
+    ".nx\\workspace-data\\parsed-lock-file.nodes.json",
+    ".nx\\workspace-data\\project-graph.json",
+    ".nx\\workspace-data\\project-graph.lock",
+    ".nx\\workspace-data\\source-maps.json",
+    ".nx\\workspace-data\\vite-9347777721732807074.hash",
+    ".prettierignore",
+    ".prettierrc",
+    "apps\\Redux-Counter\\index.html",
+    "apps\\Redux-Counter\\project.json",
+    "apps\\Redux-Counter\\src\\App.tsx",
+    "apps\\Redux-Counter\\src\\main.tsx",
+    "apps\\Redux-Counter\\tsconfig.app.json",
+    "apps\\Redux-Counter\\tsconfig.json",
+    "apps\\Redux-Counter\\vite.config.ts",
+    "docs\\what_is_nx.md",
+    "docs\\what_is_redux.md",
+    "eslint.config.mjs",
+    "jest.config.ts",
+    "jest.preset.cjs",
+    "libs\\shared\\components\\project.json",
+    "libs\\shared\\components\\src\\index.ts",
+    "libs\\shared\\components\\src\\lib\\Counter.module.css",
+    "libs\\shared\\components\\src\\lib\\Counter.tsx",
+    "libs\\shared\\components\\tsconfig.json",
+    "libs\\shared\\components\\tsconfig.lib.json",
+    "libs\\shared\\types\\project.json",
+    "libs\\shared\\types\\src\\index.ts",
+    "libs\\shared\\types\\src\\lib\\counterTypes.ts",
+    "libs\\shared\\types\\tsconfig.json",
+    "libs\\shared\\types\\tsconfig.lib.json",
+    "nx.json",
+    "package-lock.json",
+    "package.json",
+    "session_state.json",
+    "tsconfig.base.json"
+  ],
+  "context_additions": [],
+  "staged_changes": {},
+  "pending_reviews": [],
+  "history": [
+    {
+      "time": "09:18:30",
+      "action": "copied context"
+    },
+    {
+      "time": "09:18:32",
+      "action": "copied context"
+    },
+    {
+      "time": "09:30:43",
+      "action": "staged write libs/shared/types/project.json"
+    },
+    {
+      "time": "09:31:01",
+      "action": "staged write libs/shared/types/tsconfig.json"
+    },
+    {
+      "time": "09:31:04",
+      "action": "staged write libs/shared/types/tsconfig.lib.json"
+    },
+    {
+      "time": "09:31:04",
+      "action": "staged write libs/shared/types/src/index.ts"
+    },
+    {
+      "time": "09:31:07",
+      "action": "staged write libs/shared/types/src/lib/counterTypes.ts"
+    },
+    {
+      "time": "09:31:08",
+      "action": "staged write libs/shared/components/project.json"
+    },
+    {
+      "time": "09:31:09",
+      "action": "staged write libs/shared/components/tsconfig.json"
+    },
+    {
+      "time": "09:31:10",
+      "action": "staged write libs/shared/components/tsconfig.lib.json"
+    },
+    {
+      "time": "09:31:10",
+      "action": "staged write libs/shared/components/src/index.ts"
+    },
+    {
+      "time": "09:31:11",
+      "action": "staged write libs/shared/components/src/lib/Counter.tsx"
+    },
+    {
+      "time": "09:31:12",
+      "action": "staged write libs/shared/components/src/lib/Counter.module.css"
+    },
+    {
+      "time": "09:31:12",
+      "action": "staged write apps/Redux-Counter/src/main.tsx"
+    },
+    {
+      "time": "09:31:17",
+      "action": "staged write apps/Redux-Counter/src/state/store.ts"
+    },
+    {
+      "time": "09:31:19",
+      "action": "staged write apps/Redux-Counter/src/state/counterSlice.ts"
+    },
+    {
+      "time": "09:31:19",
+      "action": "staged write apps/Redux-Counter/src/state/counterSaga.ts"
+    },
+    {
+      "time": "09:31:20",
+      "action": "staged write apps/Redux-Counter/src/state/hooks.ts"
+    },
+    {
+      "time": "09:31:21",
+      "action": "staged write apps/Redux-Counter/src/App.tsx"
+    },
+    {
+      "time": "09:31:23",
+      "action": "staged write tsconfig.base.json"
+    },
+    {
+      "time": "09:31:31",
+      "action": "staged write package.json"
+    },
+    {
+      "time": "09:34:03",
+      "action": "staged write libs/counter/state/project.json"
+    },
+    {
+      "time": "09:34:04",
+      "action": "staged write libs/counter/state/tsconfig.json"
+    },
+    {
+      "time": "09:34:04",
+      "action": "staged write libs/counter/state/tsconfig.lib.json"
+    },
+    {
+      "time": "09:34:05",
+      "action": "staged write libs/counter/state/src/index.ts"
+    },
+    {
+      "time": "09:34:15",
+      "action": "staged write libs/shared/components/src/lib/Counter.tsx"
+    },
+    {
+      "time": "09:34:16",
+      "action": "staged write apps/Redux-Counter/src/main.tsx"
+    },
+    {
+      "time": "09:35:28",
+      "action": "staged write apps/Redux-Counter/tsconfig.app.json"
+    },
+    {
+      "time": "09:36:53",
+      "action": "staged write tsconfig.base.json"
+    },
+    {
+      "time": "09:37:12",
+      "action": "staged write package.json"
+    },
+    {
+      "time": "09:37:47",
+      "action": "staged write package.json"
+    },
+    {
+      "time": "09:48:37",
+      "action": "staged write libs/counter/state/project.json"
+    },
+    {
+      "time": "09:53:21",
+      "action": "staged write libs/counter/state/project.json"
+    },
+    {
+      "time": "09:53:23",
+      "action": "staged write libs/counter/state/tsconfig.json"
+    },
+    {
+      "time": "09:53:23",
+      "action": "staged write libs/counter/state/tsconfig.lib.json"
+    },
+    {
+      "time": "09:53:23",
+      "action": "staged write libs/counter/state/src/index.ts"
+    },
+    {
+      "time": "09:53:24",
+      "action": "staged write libs/counter/state/src/lib/store.ts"
+    },
+    {
+      "time": "09:53:24",
+      "action": "staged write libs/counter/state/src/lib/counterSlice.ts"
+    },
+    {
+      "time": "09:53:25",
+      "action": "staged write libs/counter/state/src/lib/counterSaga.ts"
+    },
+    {
+      "time": "09:53:25",
+      "action": "staged write libs/counter/state/src/lib/hooks.ts"
+    },
+    {
+      "time": "09:53:29",
+      "action": "staged write libs/shared/components/src/lib/Counter.tsx"
+    },
+    {
+      "time": "09:53:30",
+      "action": "staged write apps/Redux-Counter/src/App.tsx"
+    },
+    {
+      "time": "09:53:30",
+      "action": "staged write package.json"
+    },
+    {
+      "time": "09:56:26",
+      "action": "staged write libs/shared/components/src/vite-env.d.ts"
+    },
+    {
+      "time": "10:09:22",
+      "action": "staged write libs/counter/feature/project.json"
+    },
+    {
+      "time": "10:09:23",
+      "action": "staged write libs/counter/feature/tsconfig.json"
+    },
+    {
+      "time": "10:09:23",
+      "action": "staged write libs/counter/feature/tsconfig.lib.json"
+    },
+    {
+      "time": "10:09:24",
+      "action": "staged write libs/counter/feature/src/index.ts"
+    },
+    {
+      "time": "10:09:24",
+      "action": "staged write libs/counter/feature/src/lib/Counter.tsx"
+    },
+    {
+      "time": "10:09:24",
+      "action": "staged write libs/counter/feature/src/lib/Counter.module.css"
+    },
+    {
+      "time": "10:09:25",
+      "action": "staged write libs/shared/components/src/index.ts"
+    },
+    {
+      "time": "10:09:25",
+      "action": "staged write apps/Redux-Counter/src/store.ts"
+    },
+    {
+      "time": "10:09:26",
+      "action": "staged write libs/counter/state/src/index.ts"
+    },
+    {
+      "time": "10:09:26",
+      "action": "staged write apps/Redux-Counter/src/store.ts"
+    },
+    {
+      "time": "10:09:26",
+      "action": "staged write apps/Redux-Counter/src/hooks.ts"
+    },
+    {
+      "time": "10:09:27",
+      "action": "staged write libs/counter/state/src/index.ts"
+    },
+    {
+      "time": "10:09:27",
+      "action": "staged write apps/Redux-Counter/src/App.tsx"
+    },
+    {
+      "time": "10:09:28",
+      "action": "staged write apps/Redux-Counter/src/main.tsx"
+    },
+    {
+      "time": "10:09:28",
+      "action": "staged write tsconfig.base.json"
+    }
+  ],
+  "last_message": "",
+  "workspace_root": "C:\\Users\\Kohaku\\WebstormProjects\\ReduxLearning"
+}
